@@ -7,7 +7,7 @@
    * Map localhost:8000 to https domain
 ## Tech
 * Web Crawling : 
-  * 利用爬蟲的方式，抓取atp官網資訊
+  * 利用爬蟲的方式，抓取ATP官網資訊
 * Multi User
   * 支援多人使用
 
