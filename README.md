@@ -20,8 +20,8 @@
    
 3. `players`: 輸入一個字串(球員名字)，即可到下一個狀態`getplayername`。
    1. 進入`getplayername`後根據你輸入的名字告訴你此球員的基本資料
-4. `tournament`: 輸入一個數字(1-12)，即可到下一個狀態`gettournament`。
-   1. 進入`gettournament`後根據你輸入的數字告訴你該月有甚麼比賽
+4. `tournaments`: 輸入一個數字(1-12)，即可到下一個狀態`gettournaments`。
+   1. 進入`gettournaments`後根據你輸入的數字告訴你該月有甚麼比賽
 5. `headtohead`: 輸入一個字串(形式: player1 vs player2)，即可到下一個狀態`getheadtohead`。
    1. 進入`getheadtohead`告訴你player1和player2的對戰戰績
 
