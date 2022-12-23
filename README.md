@@ -6,7 +6,7 @@
 * ngrok
    * Map localhost:8000 to https domain
 ## Tech
-*crawler.py : 
+* crawler.py : 
   * 利用爬蟲的方式，抓取ATP官網資訊
 * Multi User
   * 支援多人使用
