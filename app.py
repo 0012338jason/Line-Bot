@@ -57,7 +57,7 @@ def webhook_handler():
             send_text_message(event.reply_token, "Not Entering any State")
     return "OK"
 
-@app.route("/show-fsm", methods=["POST"])
+@app.route("/show-fsm", methods=["GET"])
 def show_fsm():
     Mymachine().get_graph().draw("fsm.png", prog="dot", format="png")
     return send_file("fsm.png", mimetype="image/png")
